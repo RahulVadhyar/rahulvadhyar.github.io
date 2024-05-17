@@ -20,7 +20,7 @@ Personally, I daily drive Fedora Linux with the KDE Plasma desktop environment. 
 <hr>
 
 ## Education:
-![Desktipo]
+![](assets/img/bmsce.jpeg){: w = "50", h = "50", .left}
 <h4>
 B.E. in Artificial Intelligence and Machine Learning, BMS College of Engineering, Bangalore. (2021 - current)
 </h4>
@@ -102,12 +102,23 @@ A iOS app is being developed to use this model.
 [Github](https://github.com/shrenisc/Hilichurlian-Eng)
 
 ### Don't Slouch
-Me and my friends developed this project during a hackathon that we won. This project was developed to help people maintain a good posture while working. It uses a webcam to detect the user's posture and gives feedback on it. This 
-
+![Desktop View](https://github.com/RahulVadhyar/dontSlouch/blob/main/docs/Black%20White%20Elegant%20Monogram%20Initial%20Name%20Logo%20(1).png?raw=true){: w=10 h=10 .left}
+Me and my friends developed this project during a hackathon that we won first place. This project was developed to help people maintain a good posture while working. It uses a webcam to detect the user's posture and gives feedback on it. We accomplished this by
+collecting a small dataset of around 300 images. However due to the small size of the dataset, we performed extensive data augmentation and normalization techniques in order to improve the model's perfomance. The pipeline consists of using mediapipe to detect certain 
+landmarks on the user and then using a small feedforward network with layernorm and dropout to classify the user's posture.\
 
 ### Scene Understanding
 
+The objective of this project is to develop a contextual caption generator for images. The model takes an image as input and generates a caption that describes the image. The model is trained on the COCO dataset which consists of images and their corresponding captions. 
+The model architecture is notable as it uses a custom transformer architecture along with a mobileViT feature extractor. The model is 72M parameters in size and took 72 hours to train on about 30GB of data. For easy user interaction, a simple GUI was developed using tkinter.
+
+[Github](https://github.com/RahulVadhyar/SceneUnderstanding)
+
 ### Pet Emotion Detection and Replication in Metaverse
+
+
+![Desktop View](assets/img/samsungcertificate.png){: w = "50", h = "50", .left}
+This was a project that I along side my friends developed for Samsung under the PRISM program. The objective of this project was to detect the emotions of a pet using a webcam and then replicate the pet in the metaverse. We accomplished this by scraping a custom dataset from flickr. This dataset consisted of images of pets with their corresponding emotions. Total dataset turned out to be around 20K images. We then created a 3 model pipeline to detect, classify and extract the emotions of the pet. The models were trained using transfer learning on a pretrained EfficientNetB0 model with a custom head. This was then integrated with unreal engine that consisted of a VR environment where the pet was replicated. 
 
 <hr>
 
