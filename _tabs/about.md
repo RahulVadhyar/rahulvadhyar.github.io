@@ -12,7 +12,7 @@ Currently I am a 3rd year engineering student at BMS College of Engineering purs
 
 Over the years, I have picked up a solid understanding of the basics of Machine Learning and Deep learning and hvae gained experience in using various frameworks and libraries such as tensorflow and pytorch. I also take interest in computer graphics and have knowledge in Vulkan, GLFW, OpenGL, and GLSL.
 
-Apart from my college studies, I have done an internship at Crowd Wisdom Trading for 11 months and have passed the official Tensorflow developer certification exam in 2022. I have done many projects such as Scene Understanding,
+Apart from my college studies, I have done an internship at Crowd Wisdom Trading for 11 months and have passed the official Tensorflow developer certification exam in 2022. I have developed many projects such as Scene Understanding,
 Don't Slouch, Hilichurl to English Translator, Pet Emotion Detection and Replication in Metaverse etc. 
 
 Personally, I daily drive Fedora Linux with the KDE Plasma desktop environment. When I am free, I tend to work on my projects or learn new things. I also like to rice (customize) my desktop and make it look good.
@@ -41,7 +41,10 @@ I have passed the official Tensorflow developer certification exam in 2022.
 
 ## Internship:
 
-I have done an internship at Crowd Wisdom Trading for 11 months. I prototyped an automated day trading system using reinforcement learning.
+I have done an internship at Crowd Wisdom Trading for 11 months.
+I prototyped an advanced day trading system using reinforcement learning. It was paper tested to generate $100K per year in returns. 
+This system was creating on a custom dataset. Various architectures and algorithms were tested, from CNN, RNN, to A2C, DQN and PPO. 
+The training was performed on AWS EC2 instances with Nvidia Tesla V100 GPUs. 
 
 <hr>
 
@@ -115,7 +118,6 @@ The model architecture is notable as it uses a custom transformer architecture a
 [Github](https://github.com/RahulVadhyar/SceneUnderstanding)
 
 ### Pet Emotion Detection and Replication in Metaverse
-
 
 ![Desktop View](assets/img/samsungcertificate.png){: w = "50", h = "50", .left}
 This was a project that I along side my friends developed for Samsung under the PRISM program. The objective of this project was to detect the emotions of a pet using a webcam and then replicate the pet in the metaverse. We accomplished this by scraping a custom dataset from flickr. This dataset consisted of images of pets with their corresponding emotions. Total dataset turned out to be around 20K images. We then created a 3 model pipeline to detect, classify and extract the emotions of the pet. The models were trained using transfer learning on a pretrained EfficientNetB0 model with a custom head. This was then integrated with unreal engine that consisted of a VR environment where the pet was replicated. 
