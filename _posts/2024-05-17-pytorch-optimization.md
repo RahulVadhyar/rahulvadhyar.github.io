@@ -9,6 +9,8 @@ math: true
 toc: true
 ---
 
+# Insert a PIC of optimization here
+
 # Introduction
 
 In this post, I shall be showing you how to optimize your pytorch model for maximum performance. We shall be exploring various methods to optimize your model such as using tensor cores, torch.compile, flash attention etc. This is a very important topic as it can help you train your model faster and more efficiently. 
@@ -22,7 +24,7 @@ My system specifications are as follows:
 * **Memory**: 48GB DDR4 - 3200MT/s
 * **GPU**: Nvidia RTX 3080 10GB LHR
 * **OS**: Fedora 40 with KDE Plasma
-* **PyTorch**: 2.3.0
+* **PyTorch Version**: 2.3.0
 
 Read on to find out more.
 
@@ -55,16 +57,12 @@ One of the best methods to check how optimized your model is to use the PyTorch 
 It also shows GPU usage, 
 
 # Optimization Methods
-* Doing more on CPU
-* Tensor size and batch size
-* Better OS
-* Run less other processes on GPU
-* Use tensor cores
 * Torch.compile
+* Tensor size and batch size
+* Use tensor cores
 * Flash Attention
 * Mixed Precision
 * Fused Optimizer and instant application
-* Paged Optimizer
-* Advanced: Custom CUDA Kernels
+* Advanced: Paged optimizers and custom CUDA Kernels
 
 # Conclusion
