@@ -50,10 +50,22 @@ its just that there is another class of neural networks that can also handle seq
 you will just have to read on. 
 
 # What we did before
-Lets rewind to 2015.
+Lets rewind back to pre 2017(aka before "attention was all you need" was published). We still had machine learning tasks that were based on text or sequential data. So how did we do it?
+Enter RNNs. RNN stands for Recurrent Neural Networks. They are a special class of neural networks designed for sequential data. There are several kinds of RNNs, such as simple RNNs, 
+Long Short Term Memory(LSTM), Gated Recurrent Unit(GRU) etc. In principle these work by 
 
 
 # What is attention
+Now, finally we can come to the main section of this article, attention. Attention is a layer that is designed for 1D sequential data analysis. It works in a very clever way, let's understand this.
+Let's consider an example of a sentence
+
+"I threw a wish in the well."
+
+Now neural networks cannot understand strings, it can only understand vectors of the floating point datatype. So, the way we do this is via a 2 step process, tokenization and then vectorization.
+Tokenization is the process of converting strings into integer "tokens". 
+The easiest way is to assign random integers to each character that exists and map each character to those integers
+
+
 
 # Attention Explained
 
@@ -61,5 +73,11 @@ Lets rewind to 2015.
 
 # Transformer Architecture
 some markdown
+
+# Modern Improvments to Transformer architecture 
+## prenormalization
+## RMS normalization
+## Rotary embeddings
+## Activations
 
 # Conclusion
