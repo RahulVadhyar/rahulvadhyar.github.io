@@ -3,7 +3,6 @@
 icon: fas fa-info-circle
 order: 4
 ---
-<<<<<<< HEAD
 <hr>
 
 ## Introduction
@@ -130,8 +129,3 @@ This was a project that I along side my friends developed for Samsung under the 
 Lately in order to improve my problem solving skills, I have started solving problems on LeetCode. My current progress is shown below:
 
 ![](https://leetcard.jacoblin.cool/Rahul58405u04)
-=======
-
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
->>>>>>> v7.2.2
