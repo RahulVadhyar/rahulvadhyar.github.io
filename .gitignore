@@ -17,10 +17,20 @@ package-lock.json
 
 # IDE configurations
 .idea
+<<<<<<< HEAD
 .vscode
 !.vscode/settings.json
 !.vscode/extensions.json
 
 # Misc
 _sass/dist
+=======
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+
+# Misc
+_sass/vendors
+>>>>>>> v7.2.2
 assets/js/dist
