@@ -41,3 +41,31 @@ This work is published under [MIT][mit] License.
 [chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
 [CD]: https://en.wikipedia.org/wiki/Continuous_deployment
 [mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+
+## Some notes for self:
+
+To run this website, run the following commands for fedora:
+
+```bash
+sudo dnf install ruby ruby-devel openssl-devel redhat-rpm-config gcc-c++ @development-tools
+```
+
+Add the following to the `.bashrc` file:
+
+```bash
+export GEM_HOME=$HOME/gems
+export PATH=$HOME/gems/bin:$PATH
+```
+
+Then run the following commands:
+
+```bash
+gem install jekyll bundler
+bundle
+```
+
+To run the website, run the following command:
+
+```bash
+bash tools/run.sh
+```
